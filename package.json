@@ -1,6 +1,6 @@
 {
   "name": "@memuli/components",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "private": false,
   "type": "module",
   "main": "src/index.ts",
@@ -11,10 +11,12 @@
   },
   "peerDependencies": {
     "react": ">=19.0.0",
-    "react-native": ">=0.81.0"
+    "react-native": ">=0.81.0",
+    "react-native-svg": ">=15.0.0"
   },
   "devDependencies": {
     "@types/react": "~19.1.10",
+    "react-native-svg": "15.12.1",
     "typescript": "~5.9.2"
   }
 }
